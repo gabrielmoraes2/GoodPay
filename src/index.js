@@ -1,4 +1,5 @@
 var janelaLogin = new bootstrap.Modal(document.getElementById("loginNegado"));
+var janelaPromocao = new bootstrap.Modal(document.getElementById("promo1"));
 
 function rotaCadastro() {
   window.location.href = "../registro.html";
@@ -14,4 +15,15 @@ function rotaLogin() {
   } else {
     janelaLogin.show();
   }
+}
+
+function alertaPromo() {
+  let titulo = "Promoção 1";
+  let corpo =
+    "Super Legal <br> <img src='img/4.png' width = '180px' heigth = '60px'>";
+
+  janelaPromocao.show();
+
+  document.getElementById("titulo").innerHTML = titulo;
+  document.getElementById("corpo").innerHTML = corpo;
 }

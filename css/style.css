@@ -1,4 +1,9 @@
 .fundoSoulcode {
-    padding: 5px;
+  padding: 5px;
   background-color: aqua;
+}
+.offcanvas-backdrop {
+  width: 0;
+  height: 0;
+  background-color: 0;
 }
